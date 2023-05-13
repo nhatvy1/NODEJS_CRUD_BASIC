@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs crud basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhatvy1/NODEJS_CRUD_BASIC.git"
+  },
+  "author": "nhatvy1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhatvy1/NODEJS_CRUD_BASIC/issues"
+  },
+  "homepage": "https://github.com/nhatvy1/NODEJS_CRUD_BASIC#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
