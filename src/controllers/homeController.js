@@ -1,7 +1,7 @@
-const handleGetHomepage = (req, res)=> {
-    res.send('Hello World!')
+const getHomepage = (req, res)=> {
+    return res.render('home.ejs')
 }
 
 module.exports = {
-    handleGetHomepage
+    getHomepage
 }
