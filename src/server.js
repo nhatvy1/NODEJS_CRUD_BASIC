@@ -19,13 +19,13 @@ app.use('/' ,webRoutes)
 
 
 // simple query
-connection.query(
-    'SELECT * FROM Users u',
-    function(err, results, fields) {
-      console.log('Result: ', results); // results contains rows returned by server
-      // console.log('Fields: ', fields); // fields contains extra meta data about results, if available
-    }
-  );
+// connection.query(
+//     'SELECT * FROM Users u',
+//     function(err, results, fields) {
+//       console.log('Result: ', results); // results contains rows returned by server
+//       // console.log('Fields: ', fields); // fields contains extra meta data about results, if available
+//     }
+//   );
 
 
 app.listen(port, hostname, () => {
